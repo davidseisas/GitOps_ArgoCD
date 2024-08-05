@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/davidseisas/GitOps_ArgoCD.git
     targetRevision: HEAD
-    path: environments/staging/my-app
+    path: staging/my-app
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
